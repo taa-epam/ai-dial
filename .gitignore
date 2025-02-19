@@ -35,3 +35,6 @@ core-logs
 
 # Local dev files
 ~*
+
+# github Actions
+.github/workflows/release.yml
