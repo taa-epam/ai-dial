@@ -28,7 +28,7 @@ const config = {
   url: 'https://docs.epam-rail.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl:  process.env.BASE_URL ? process.env.BASE_URL : '/',
+  baseUrl:  ${{ variables.BASE_URL }} ? ${{ variables.BASE_URL }} : '/',
   trailingSlash: false,
 
   // GitHub pages deployment config.
